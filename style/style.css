@@ -1,0 +1,205 @@
+.navbar{
+    background-color:#fff;
+    height:80px;
+    margin:20px;
+    border-radius:16px;
+    -webkit-border-radius:16px;
+    -moz-border-radius:16px;
+    -ms-border-radius:16px;
+    -o-border-radius:16px;
+    padding:0.5rem;
+}
+.navbar-brand{
+    font-weight:500px;
+    color:deepskyblue;
+    font-size:24px;
+    transition: 0.3s color;
+    -webkit-transition: 0.3s color;
+    -moz-transition: 0.3s color;
+    -ms-transition: 0.3s color;
+    -o-transition: 0.3s color;
+}
+.login-button{
+    background-color:deepskyblue;
+    color:black;
+    font-size:14px;
+    padding:8px 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    text-decoration:none;
+    transition: 0.3s background-color;
+    -webkit-transition: 0.3s background-color;
+    -moz-transition: 0.3s background-color;
+    -ms-transition: 0.3s background-color;
+    -o-transition: 0.3s background-color;
+}
+.login-button:hover{
+    background-color: #00b5ff;
+}
+
+.navbar-toggler{ 
+    border:none;
+    font-size:1.25rem;
+}
+.navbar-toggler:focus, .btn-close:focus{
+    box-shadow:none;
+    outline:none;
+}
+
+.nav-link{
+    color:#000;
+    font-weight:500;
+    position:relative;
+}
+.nav-link:hover, .nav-link.active{
+    color:#000;
+}
+@media (min-width:991px){
+    .nav-link::before{
+        content: "";
+        position: absolute;
+        bottom:0;
+        left:50%;
+        transform:translateX(-50%);
+        -webkit-transform:translateX(-50%);
+        -moz-transform:translateX(-50%);
+        -ms-transform:translateX(-50%);
+        -o-transform:translateX(-50%);
+        width:100%;
+        height:2px;
+        background-color: deepskyblue;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+        -webkit-transition: 0.3s ease-in-out;
+        -moz-transition: 0.3s ease-in-out;
+        -ms-transition: 0.3s ease-in-out;
+        -o-transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before, .nav-link.active::before{
+        width:100%;
+        visibility:visible;
+    }
+}
+.hero-section{
+    background: url("../picture/Stalls.jpg") no-repeat center;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+}
+.hero-section::before{
+    background-color: rgba(0,0,0,0.6);
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+.hero-section .container{
+    height: 100vh;
+    z-index:1;
+    position:relative;
+}
+.hero-section h1{
+    font-size : 1.5em;
+}
+
+.hero-section h2{
+    font-size : 1.2em;
+}
+.hero-section ,.hs-span{
+    color:#00b5ff;
+}
+.mt-45{
+    margin-top: 45px !important;
+}
+
+/* 
+.carousel-item{
+    height:100vh;
+    min-height:300px;
+}
+
+.carousel-caption{
+    bottom:220px;
+    z-index:2;
+}
+
+.carousel-caption h5{
+    font-size:45px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-top:25px;
+}
+
+.carousel-caption p{
+    width:60%;
+    margin:auto;
+    font-size:18px;
+    line-height:1.9;
+}
+
+.carousel-inner::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background:rgb(0,0,0,0.7);
+    z-index:1;
+}
+
+.navbar-nav a{
+    font-size:15px;
+    text-transform:uppercase;
+    font-weight:500px;
+}
+
+.navbar-light .navbar-brand{
+    color:#000;
+    font-size:25px;
+    text-transform:uppercase;
+    font-weight:700px;
+    letter-spacing:2px;
+} */
+/* 
+.navbar-light .navbar-brand:focus, */
+/* @media only screen and (min-width:768px) and(max-width:991px){
+    .carousel-caption{
+        bottom:370px;
+    }
+    .carousel-caption p{
+        width:100%;
+    }
+    .card{
+        margin-bottom:30px;
+    }
+    .img-area img{
+        width:100px;
+    }
+} */
+
+/* .service .card-body i{
+    font-size : 50px;
+}
+.en-span {
+    color: #00b5ff;
+}
+.services .card-body{
+    font-size:50px;
+}
+
+.team .card-only{
+    font-size:20px;
+}
+.portofolio .card{
+    box-shadow:15px 15px 40px rgba(0,0,0,0.15)
+}
+.team .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15)
+} */
